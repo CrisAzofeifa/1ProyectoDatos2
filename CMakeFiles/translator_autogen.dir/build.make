@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/cris/Descargas/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /opt/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/cris/Descargas/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /opt/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cris/CLionProjects/translator
+CMAKE_SOURCE_DIR = /home/kimberlyc/CLionProjects/1ProyectoDatos2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cris/CLionProjects/translator
+CMAKE_BINARY_DIR = /home/kimberlyc/CLionProjects/1ProyectoDatos2
 
 # Utility rule file for translator_autogen.
 
@@ -54,12 +54,12 @@ CMAKE_BINARY_DIR = /home/cris/CLionProjects/translator
 include CMakeFiles/translator_autogen.dir/progress.make
 
 CMakeFiles/translator_autogen: ui_ide_cfactorial.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cris/CLionProjects/translator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target translator"
-	/home/cris/Descargas/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_autogen /home/cris/CLionProjects/translator/CMakeFiles/translator_autogen.dir debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target translator"
+	/opt/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_autogen /home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles/translator_autogen.dir RelWithDebInfo
 
 ui_ide_cfactorial.h: forms/ide_cfactorial.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cris/CLionProjects/translator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_ide_cfactorial.h"
-	/home/cris/Qt5.7.0/5.7/gcc_64/bin/uic -o /home/cris/CLionProjects/translator/ui_ide_cfactorial.h /home/cris/CLionProjects/translator/forms/ide_cfactorial.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_ide_cfactorial.h"
+	/home/kimberlyc/Qt5.7.0/5.7/gcc_64/bin/uic -o /home/kimberlyc/CLionProjects/1ProyectoDatos2/ui_ide_cfactorial.h /home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/ide_cfactorial.ui
 
 translator_autogen: CMakeFiles/translator_autogen
 translator_autogen: ui_ide_cfactorial.h
@@ -77,6 +77,6 @@ CMakeFiles/translator_autogen.dir/clean:
 .PHONY : CMakeFiles/translator_autogen.dir/clean
 
 CMakeFiles/translator_autogen.dir/depend:
-	cd /home/cris/CLionProjects/translator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cris/CLionProjects/translator /home/cris/CLionProjects/translator /home/cris/CLionProjects/translator /home/cris/CLionProjects/translator /home/cris/CLionProjects/translator/CMakeFiles/translator_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kimberlyc/CLionProjects/1ProyectoDatos2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kimberlyc/CLionProjects/1ProyectoDatos2 /home/kimberlyc/CLionProjects/1ProyectoDatos2 /home/kimberlyc/CLionProjects/1ProyectoDatos2 /home/kimberlyc/CLionProjects/1ProyectoDatos2 /home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles/translator_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/translator_autogen.dir/depend
 

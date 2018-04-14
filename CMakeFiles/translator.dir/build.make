@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/cris/Descargas/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /opt/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/cris/Descargas/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /opt/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cris/CLionProjects/translator
+CMAKE_SOURCE_DIR = /home/kimberlyc/CLionProjects/1ProyectoDatos2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cris/CLionProjects/translator
+CMAKE_BINARY_DIR = /home/kimberlyc/CLionProjects/1ProyectoDatos2
 
 # Include any dependencies generated for this target.
 include CMakeFiles/translator.dir/depend.make
@@ -58,21 +58,21 @@ include CMakeFiles/translator.dir/progress.make
 include CMakeFiles/translator.dir/flags.make
 
 ui_ide_cfactorial.h: forms/ide_cfactorial.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cris/CLionProjects/translator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_ide_cfactorial.h"
-	/home/cris/Qt5.7.0/5.7/gcc_64/bin/uic -o /home/cris/CLionProjects/translator/ui_ide_cfactorial.h /home/cris/CLionProjects/translator/forms/ide_cfactorial.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_ide_cfactorial.h"
+	/home/kimberlyc/Qt5.7.0/5.7/gcc_64/bin/uic -o /home/kimberlyc/CLionProjects/1ProyectoDatos2/ui_ide_cfactorial.h /home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/ide_cfactorial.ui
 
 CMakeFiles/translator.dir/main.cpp.o: CMakeFiles/translator.dir/flags.make
 CMakeFiles/translator.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cris/CLionProjects/translator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/translator.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translator.dir/main.cpp.o -c /home/cris/CLionProjects/translator/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/translator.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translator.dir/main.cpp.o -c /home/kimberlyc/CLionProjects/1ProyectoDatos2/main.cpp
 
 CMakeFiles/translator.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translator.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cris/CLionProjects/translator/main.cpp > CMakeFiles/translator.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimberlyc/CLionProjects/1ProyectoDatos2/main.cpp > CMakeFiles/translator.dir/main.cpp.i
 
 CMakeFiles/translator.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translator.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cris/CLionProjects/translator/main.cpp -o CMakeFiles/translator.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimberlyc/CLionProjects/1ProyectoDatos2/main.cpp -o CMakeFiles/translator.dir/main.cpp.s
 
 CMakeFiles/translator.dir/main.cpp.o.requires:
 
@@ -87,16 +87,16 @@ CMakeFiles/translator.dir/main.cpp.o.provides.build: CMakeFiles/translator.dir/m
 
 CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o: CMakeFiles/translator.dir/flags.make
 CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o: forms/ide_cfactorial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cris/CLionProjects/translator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o -c /home/cris/CLionProjects/translator/forms/ide_cfactorial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o -c /home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/ide_cfactorial.cpp
 
 CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cris/CLionProjects/translator/forms/ide_cfactorial.cpp > CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/ide_cfactorial.cpp > CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.i
 
 CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cris/CLionProjects/translator/forms/ide_cfactorial.cpp -o CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/ide_cfactorial.cpp -o CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.s
 
 CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o.requires:
 
@@ -111,16 +111,16 @@ CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/translator.dir/Client.cpp.o: CMakeFiles/translator.dir/flags.make
 CMakeFiles/translator.dir/Client.cpp.o: Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cris/CLionProjects/translator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/translator.dir/Client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translator.dir/Client.cpp.o -c /home/cris/CLionProjects/translator/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/translator.dir/Client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translator.dir/Client.cpp.o -c /home/kimberlyc/CLionProjects/1ProyectoDatos2/Client.cpp
 
 CMakeFiles/translator.dir/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translator.dir/Client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cris/CLionProjects/translator/Client.cpp > CMakeFiles/translator.dir/Client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimberlyc/CLionProjects/1ProyectoDatos2/Client.cpp > CMakeFiles/translator.dir/Client.cpp.i
 
 CMakeFiles/translator.dir/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translator.dir/Client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cris/CLionProjects/translator/Client.cpp -o CMakeFiles/translator.dir/Client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimberlyc/CLionProjects/1ProyectoDatos2/Client.cpp -o CMakeFiles/translator.dir/Client.cpp.s
 
 CMakeFiles/translator.dir/Client.cpp.o.requires:
 
@@ -135,16 +135,16 @@ CMakeFiles/translator.dir/Client.cpp.o.provides.build: CMakeFiles/translator.dir
 
 CMakeFiles/translator.dir/MetaData.cpp.o: CMakeFiles/translator.dir/flags.make
 CMakeFiles/translator.dir/MetaData.cpp.o: MetaData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cris/CLionProjects/translator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/translator.dir/MetaData.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translator.dir/MetaData.cpp.o -c /home/cris/CLionProjects/translator/MetaData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/translator.dir/MetaData.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translator.dir/MetaData.cpp.o -c /home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.cpp
 
 CMakeFiles/translator.dir/MetaData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translator.dir/MetaData.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cris/CLionProjects/translator/MetaData.cpp > CMakeFiles/translator.dir/MetaData.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.cpp > CMakeFiles/translator.dir/MetaData.cpp.i
 
 CMakeFiles/translator.dir/MetaData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translator.dir/MetaData.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cris/CLionProjects/translator/MetaData.cpp -o CMakeFiles/translator.dir/MetaData.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.cpp -o CMakeFiles/translator.dir/MetaData.cpp.s
 
 CMakeFiles/translator.dir/MetaData.cpp.o.requires:
 
@@ -159,16 +159,16 @@ CMakeFiles/translator.dir/MetaData.cpp.o.provides.build: CMakeFiles/translator.d
 
 CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.o: CMakeFiles/translator.dir/flags.make
 CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.o: translator_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cris/CLionProjects/translator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.o -c /home/cris/CLionProjects/translator/translator_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.o -c /home/kimberlyc/CLionProjects/1ProyectoDatos2/translator_autogen/mocs_compilation.cpp
 
 CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cris/CLionProjects/translator/translator_autogen/mocs_compilation.cpp > CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimberlyc/CLionProjects/1ProyectoDatos2/translator_autogen/mocs_compilation.cpp > CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cris/CLionProjects/translator/translator_autogen/mocs_compilation.cpp -o CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimberlyc/CLionProjects/1ProyectoDatos2/translator_autogen/mocs_compilation.cpp -o CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.o.requires:
 
@@ -198,12 +198,12 @@ translator: CMakeFiles/translator.dir/Client.cpp.o
 translator: CMakeFiles/translator.dir/MetaData.cpp.o
 translator: CMakeFiles/translator.dir/translator_autogen/mocs_compilation.cpp.o
 translator: CMakeFiles/translator.dir/build.make
-translator: /home/cris/Qt5.7.0/5.7/gcc_64/lib/libQt5Widgets.so.5.7.0
-translator: /home/cris/Qt5.7.0/5.7/gcc_64/lib/libQt5Network.so.5.7.0
-translator: /home/cris/Qt5.7.0/5.7/gcc_64/lib/libQt5Gui.so.5.7.0
-translator: /home/cris/Qt5.7.0/5.7/gcc_64/lib/libQt5Core.so.5.7.0
+translator: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/lib/libQt5Widgets.so.5.7.0
+translator: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/lib/libQt5Network.so.5.7.0
+translator: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/lib/libQt5Gui.so.5.7.0
+translator: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/lib/libQt5Core.so.5.7.0
 translator: CMakeFiles/translator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cris/CLionProjects/translator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable translator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable translator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/translator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -224,6 +224,6 @@ CMakeFiles/translator.dir/clean:
 .PHONY : CMakeFiles/translator.dir/clean
 
 CMakeFiles/translator.dir/depend: ui_ide_cfactorial.h
-	cd /home/cris/CLionProjects/translator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cris/CLionProjects/translator /home/cris/CLionProjects/translator /home/cris/CLionProjects/translator /home/cris/CLionProjects/translator /home/cris/CLionProjects/translator/CMakeFiles/translator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kimberlyc/CLionProjects/1ProyectoDatos2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kimberlyc/CLionProjects/1ProyectoDatos2 /home/kimberlyc/CLionProjects/1ProyectoDatos2 /home/kimberlyc/CLionProjects/1ProyectoDatos2 /home/kimberlyc/CLionProjects/1ProyectoDatos2 /home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles/translator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/translator.dir/depend
 

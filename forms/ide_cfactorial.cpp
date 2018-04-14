@@ -290,20 +290,27 @@ void IDE_CFactorial::generarJson(string tipo, string nombre, string valor) {
     }else if(tipo == "double" | tipo == "long"){
         event["tamanio"] = "8";
     }
-    QString mensaje = QString::fromStdString(event.toStyledString());
 
-    ui->StdOut->append(mensaje);
+    string mensaje = event.toStyledString();
+    char json[mensaje.size()];
+    for (int i= 0; i<mensaje.size(); i ++){
+        json[i]= mensaje[i];
+    }
 
+    Client* cliente = new Client;
+    void *cliente_thread(void *arg) {
+        cliente->crear();
+        cliente->enviar(json);
+    }
 
-    /*string message = event.toStyledString();
-    Client *nuevo = new Client;
-    nuevo->crear();
-    nuevo->enviar();*/
+    pthread_t c_thread;
+    int ret;
+    ret =  pthread_create(&c_thread, NULL, &cliente_thread, NULL);
 
-    string op = event.toStyledString();
-
-    std::cout << op << std::endl;
-
+    if(ret != 0) {
+        printf("Error al crear el Thread del cliente\n");
+        exit(EXIT_FAILURE);
+    }
 
 }
 

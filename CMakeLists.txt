@@ -32,12 +32,12 @@ if(${CMAKE_CXX_COMPILER_ID} MATCHES "GNU" OR ${CMAKE_CXX_COMPILER_ID} MATCHES "C
 endif()
 
 find_package(Qt5Widgets CONFIG
-		PATHS /home/cris/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets
+		PATHS /home/kimberlyc/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets
 		NO_DEFAULT_PATH REQUIRED)
 
 
 find_package(Qt5Network CONFIG
-		PATHS /home/cris/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network
+		PATHS /home/kimberlyc/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network
 		NO_DEFAULT_PATH REQUIRED)
 
 include_directories(
