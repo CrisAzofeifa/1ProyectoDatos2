@@ -111,7 +111,7 @@ void *manejador_conexion(void *socket_desc)
     //Se obtiene el descriptor del socket
     int sock = *(int*)socket_desc;
     int read_size;
-    char client_message[20000];
+    char client_message[200];
     const char *message;
 
     //Enviar mensajes al cliente
@@ -120,11 +120,11 @@ void *manejador_conexion(void *socket_desc)
 
 
     //Recibir mensajes al cliente
-    while( (read_size = recv(sock , client_message , 20000 , 0)) > 0 )
+    while( (read_size = recv(sock , client_message , 200 , 0)) > 0 )
     {
         //Final del marcador del string respuesta
         client_message[read_size] = '\0';
-         char client_resp[20000] = "esta es mi respuesta jajajajaja";
+         char client_resp[53] = "Datos recibidos con exito por mserver\n\n";
 
         //Enviar mensaje de vuelta al cliente
 

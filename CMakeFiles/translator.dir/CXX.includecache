@@ -31,10 +31,16 @@ iostream
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.cpp
 MetaData.h
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.h
+Client.h
+/home/kimberlyc/CLionProjects/1ProyectoDatos2/Client.h
 
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.h
+Client.h
+/home/kimberlyc/CLionProjects/1ProyectoDatos2/Client.h
 
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/ide_cfactorial.cpp
+MetaData.h
+-
 ide_cfactorial.h
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/ide_cfactorial.h
 ui_ide_cfactorial.h
@@ -59,6 +65,8 @@ QApplication
 -
 forms/ide_cfactorial.h
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/ide_cfactorial.h
+MetaData.h
+/home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.h
 jsoncpp/json/json.h
 -
 iostream
@@ -1409,6 +1417,10 @@ iostream
 -
 
 List.h
+
+MetaData.h
+Client.h
+Client.h
 
 ui_ide_cfactorial.h
 QtCore/QVariant

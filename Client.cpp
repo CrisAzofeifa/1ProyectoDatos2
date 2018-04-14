@@ -29,9 +29,8 @@ int Client::crear() {
     server.sin_port = htons( 8888 ); //puerto de comunicacion
 
     conectar();
-
-    close(socket_desc); // Cerrar la comunicación
-
+     // Cerrar la comunicación
+    //close(socket_desc);
 
     return 0;
 }
@@ -43,12 +42,7 @@ int Client::conectar() {
         puts("Error al conectar\n");
         return 1;
     }
-
-    puts("Conectado\n");
-    char json[98] = {"soy un json"};
-    enviar (json);
-
-}
+    }
 
 int Client::enviar(char json[]){
     //Enviar datos
@@ -69,14 +63,25 @@ int Client::recibir(){
 
     //Recibir una respuesta del servidor
     char  server_reply[2000];
+    int read_size;
     if( recv(socket_desc, server_reply , 2000 , 0) < 0)
     {
-        puts("Datos recibidos con éxito\n");
+        puts("Datos recibidos con éxito\n\n");
     }
     puts("La respuesta:\n");
     puts(server_reply);
-    MetaData *meta = new MetaData();
-    meta->parseo(server_reply);
+
+
+
+    /*if(read_size == 0)
+    {
+        puts("Servidor desconectado");
+        close(socket_desc); // Cerrar la comunicación
+    }
+*/
+
+    //MetaData *meta = new MetaData();
+    //meta->parseo(server_reply);
 
 
 }

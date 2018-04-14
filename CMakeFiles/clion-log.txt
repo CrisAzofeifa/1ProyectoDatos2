@@ -1,4 +1,13 @@
 /opt/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /home/kimberlyc/CLionProjects/1ProyectoDatos2
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
 -- Checking for module 'jsoncpp'
 --   Found jsoncpp, version 1.7.2
 CMake Warning at CMakeLists.txt:22 (message):

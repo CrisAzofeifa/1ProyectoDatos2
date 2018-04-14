@@ -617,3 +617,31 @@ make[1]: se sale del directorio '/home/kimberlyc/CLionProjects/1ProyectoDatos2/C
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8dc75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8dc75.dir/build.make CMakeFiles/cmTC_8dc75.dir/build
+make[1]: se entra en el directorio '/home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8dc75.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8dc75.dir/CheckIncludeFile.c.o   -c /home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8dc75
+/opt/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dc75.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8dc75.dir/CheckIncludeFile.c.o  -o cmTC_8dc75 
+make[1]: se sale del directorio '/home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8db29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8db29.dir/build.make CMakeFiles/cmTC_8db29.dir/build
+make[1]: se entra en el directorio '/home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8db29.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8db29.dir/CheckFunctionExists.c.o   -c /opt/clion-2017.3.3/bin/cmake/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8db29
+/opt/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8db29.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8db29.dir/CheckFunctionExists.c.o  -o cmTC_8db29 -lpthread 
+make[1]: se sale del directorio '/home/kimberlyc/CLionProjects/1ProyectoDatos2/CMakeFiles/CMakeTmp'
+
+

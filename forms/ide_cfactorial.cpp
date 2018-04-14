@@ -1,3 +1,4 @@
+#include <MetaData.h>
 #include "ide_cfactorial.h"
 #include "ui_ide_cfactorial.h"
 
@@ -298,21 +299,26 @@ void IDE_CFactorial::generarJson(string tipo, string nombre, string valor) {
     }
 
     Client* cliente = new Client;
-    void *cliente_thread(void *arg) {
-        cliente->crear();
-        cliente->enviar(json);
-    }
+    cliente->crear();
+    cliente->enviar(json);
+}
+/*Client* cliente = new Client;
+void *cliente_thread(void *arg) {
+    cliente->crear();
+}
+
+void MetaData::hiloCliente(char json[]) {
 
     pthread_t c_thread;
     int ret;
-    ret =  pthread_create(&c_thread, NULL, &cliente_thread, NULL);
+    ret = pthread_create(&c_thread, NULL, &cliente_thread, NULL);
 
-    if(ret != 0) {
+    if (ret != 0) {
         printf("Error al crear el Thread del cliente\n");
         exit(EXIT_FAILURE);
     }
-
-}
+    cliente->enviar(json);
+}*/
 
 void IDE_CFactorial::dividirEnExpresiones(string Texto) {
     string actual = "";

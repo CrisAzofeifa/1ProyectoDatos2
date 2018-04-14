@@ -6,6 +6,7 @@ CMakeFiles/translator.dir/Client.cpp.o
  /home/kimberlyc/CLionProjects/1ProyectoDatos2/Client.h
  /home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.h
 CMakeFiles/translator.dir/MetaData.cpp.o
+ /home/kimberlyc/CLionProjects/1ProyectoDatos2/Client.h
  /home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.cpp
  /home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.h
 CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o
@@ -161,8 +162,10 @@ CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o
  Client.h
  Expresion.h
  List.h
+ MetaData.h
  ui_ide_cfactorial.h
 CMakeFiles/translator.dir/main.cpp.o
+ /home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.h
  /home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/ide_cfactorial.h
  /home/kimberlyc/CLionProjects/1ProyectoDatos2/main.cpp
  /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qalgorithms.h

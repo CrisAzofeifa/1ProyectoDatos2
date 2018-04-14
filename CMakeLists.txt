@@ -5,8 +5,8 @@ project(${TARGET_NAME})
 
 ###################################################
 
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread")
-#find_package( Threads REQUIRED )
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread")
+find_package( Threads REQUIRED )
 
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(JSONCPP jsoncpp)
@@ -75,6 +75,8 @@ qt5_add_resources(RCC_SOURCES ${RESOURCES})
 
 # Set target
 add_executable(${TARGET_NAME} ${SOURCES} ${HEADERS} ${UIC_SOURCES} ${RCC_SOURCES})
+target_link_libraries( ${TARGET_NAME} Threads::Threads )
+
 
 # Link with libraries
 target_link_libraries(${TARGET_NAME} ${LIBRARIES})
