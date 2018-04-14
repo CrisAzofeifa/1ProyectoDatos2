@@ -1,0 +1,9 @@
+/home/cris/CLionProjects/translator/CMakeFiles/install/strip.dir
+/home/cris/CLionProjects/translator/CMakeFiles/install/local.dir
+/home/cris/CLionProjects/translator/CMakeFiles/install.dir
+/home/cris/CLionProjects/translator/CMakeFiles/list_install_components.dir
+/home/cris/CLionProjects/translator/CMakeFiles/rebuild_cache.dir
+/home/cris/CLionProjects/translator/CMakeFiles/edit_cache.dir
+/home/cris/CLionProjects/translator/CMakeFiles/translator.dir
+/home/cris/CLionProjects/translator/CMakeFiles/main.dir
+/home/cris/CLionProjects/translator/CMakeFiles/translator_autogen.dir
