@@ -16,7 +16,15 @@
 
  * 4. Ingresar ./mserver
 */
+
+int base=0;
+int limite =1024;
+int top=0;
+
+
 using namespace std;
+
+
 void *manejador_conexion(void *);
 
 int socket_desc , client_sock , c;
@@ -26,6 +34,8 @@ char *memoria;
 int main(){
     Server* server= new Server;
     server->crear();
+    class EstructuraData;
+    class List;
     return 0;
 }
 
@@ -53,8 +63,7 @@ int Server::crear() {
 
     memoria = (char *)(malloc(sizeof(char)*1024));
 
-    List<EstructuraData>* ListaMemo = new List<EstructuraData>;
-    EstructuraData* estruct = new EstructuraData;
+
     //Para ver si se asigno correctamente la memoria
     if (memoria  == NULL) {
         puts("Error al intentar reservar memoria");
@@ -146,25 +155,21 @@ void *manejador_conexion(void *socket_desc)
 
 
 
-
+/*
         if ( top< limite){
             int nombre= (int*)(obj["valor"].asString()); //valor
             *(int*)(memoria+base)= nombre; //suma tamanio
             top+= (int*)(obj["tamanio"].asString()); //tamanio
             int *ptr= (int*)(memoria+base);
 
-            estruct->setAtributos(obj["nombre"].asString(), ptr,obj["tipo"].asString(), *ptr, base,top );
-            base= top;
-            ListaMemo->Insert(estruct);
-        }
+            //estruct->setAtributos(obj["nombre"].asString(), ptr,obj["tipo"].asString(), *ptr, base,top );
+
+
+
         else{
             cout<< "sin memoria disponible";
         }
-
-        for (int i=0; i<ListaMemo->length(); i++){
-            cout<< "un nodo dice" <<MetaData->Get(i);
-        }
-
+*/
         cout << "El mensaje recibido es " << mensaje<< endl;
         //limpiar el mensaje
        //memset(client_message, 0, 2000);

@@ -24,7 +24,7 @@ int Client::crear() {
         printf("Socket creado con éxito\n");
     }
 
-    server.sin_addr.s_addr = inet_addr("192.168.100.14"); // ID para la conexion (ping)
+    server.sin_addr.s_addr = inet_addr("192.168.100.5"); // ID para la conexion (ping)
     server.sin_family = AF_INET; //Socket tipo atp
     server.sin_port = htons( 8888 ); //puerto de comunicacion
 

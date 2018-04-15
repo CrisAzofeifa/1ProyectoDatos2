@@ -6,7 +6,7 @@ set(AM_CMAKE_CURRENT_BINARY_DIR "/home/kimberlyc/CLionProjects/1ProyectoDatos2/"
 set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
 set(AM_BUILD_DIR "/home/kimberlyc/CLionProjects/1ProyectoDatos2/translator_autogen")
 set(AM_SOURCES "/home/kimberlyc/CLionProjects/1ProyectoDatos2/main.cpp;/home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/ide_cfactorial.cpp;/home/kimberlyc/CLionProjects/1ProyectoDatos2/Client.cpp;/home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.cpp")
-set(AM_HEADERS "/home/kimberlyc/CLionProjects/1ProyectoDatos2/Client.h;/home/kimberlyc/CLionProjects/1ProyectoDatos2/Expresion.h;/home/kimberlyc/CLionProjects/1ProyectoDatos2/ListNode.h;/home/kimberlyc/CLionProjects/1ProyectoDatos2/List.h;/home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.h;/home/kimberlyc/CLionProjects/1ProyectoDatos2/EstructuraData.h")
+set(AM_HEADERS "/home/kimberlyc/CLionProjects/1ProyectoDatos2/Client.h;/home/kimberlyc/CLionProjects/1ProyectoDatos2/Expresion.h;/home/kimberlyc/CLionProjects/1ProyectoDatos2/ListNode.h;/home/kimberlyc/CLionProjects/1ProyectoDatos2/List.h;/home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.h")
 # Qt environment
 set(AM_QT_VERSION_MAJOR "5")
 set(AM_QT_MOC_EXECUTABLE "/home/kimberlyc/Qt5.7.0/5.7/gcc_64/bin/moc")

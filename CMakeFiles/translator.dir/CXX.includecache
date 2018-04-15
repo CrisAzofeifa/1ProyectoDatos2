@@ -39,8 +39,6 @@ Client.h
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/Client.h
 
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/ide_cfactorial.cpp
-MetaData.h
--
 ide_cfactorial.h
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/ide_cfactorial.h
 ui_ide_cfactorial.h
@@ -61,17 +59,13 @@ Expresion.h
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/Expresion.h
 
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/main.cpp
+iostream
+-
 QApplication
 -
 forms/ide_cfactorial.h
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/ide_cfactorial.h
-MetaData.h
-/home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.h
-jsoncpp/json/json.h
--
-iostream
--
-fstream
+QThread
 -
 
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/translator_autogen/QM7UNKGVG2/moc_ide_cfactorial.cpp
@@ -85,6 +79,10 @@ QtCore/qmetatype.h
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/translator_autogen/mocs_compilation.cpp
 QM7UNKGVG2/moc_ide_cfactorial.cpp
 /home/kimberlyc/CLionProjects/1ProyectoDatos2/translator_autogen/QM7UNKGVG2/moc_ide_cfactorial.cpp
+
+/home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/QThread
+qthread.h
+/home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qthread.h
 
 /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/QVariant
 qvariant.h
@@ -692,6 +690,12 @@ QtCore/qlocale.h
 QtCore/qscopedpointer.h
 -
 stdio.h
+-
+
+/home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qthread.h
+QtCore/qobject.h
+-
+limits.h
 -
 
 /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qtypeinfo.h
@@ -1417,10 +1421,6 @@ iostream
 -
 
 List.h
-
-MetaData.h
-Client.h
-Client.h
 
 ui_ide_cfactorial.h
 QtCore/QVariant

@@ -1,20 +1,41 @@
+#include <iostream>
 #include <QApplication>
 #include "forms/ide_cfactorial.h"
-#include "MetaData.h"
-#include <jsoncpp/json/json.h>
-#include <iostream>
-#include <fstream>
+#include <QThread>
 
-//hola amor <3
+
 
 using namespace std;
 
-int main(int argc, char* argv[]) {
 
+int main(int argc, char* argv[]) {
     QApplication a(argc, argv);
+    pthread_t c_thread;
     IDE_CFactorial w;
     w.show();
-    char* memo =(char*)malloc(sizeof(char)*1024);
+/*
+
+    QThread interfaz;
+    public:
+    Controller() {
+        Worker *worker = new Worker;
+        worker->moveToThread(&workerThread);
+        connect(&workerThread, &QThread::finished, worker, &QObject::deleteLater);
+        connect(this, &Controller::operate, worker, &Worker::doWork);
+        connect(worker, &Worker::resultReady, this, &Controller::handleResults);
+        workerThread.start();
+    }
+    ~Controller() {
+        workerThread.quit();
+        workerThread.wait();
+    }*/
+    return a.exec();
+}
+
+
+
+
+   /* char* memo =(char*)malloc(sizeof(char)*1024);
     int y=76;
     *(int*)(memo+4)= y;
     int *ptr= (int*)(memo+4);
@@ -42,6 +63,5 @@ int main(int argc, char* argv[]) {
     }
 */
 
-    return a.exec();
 
-}
+

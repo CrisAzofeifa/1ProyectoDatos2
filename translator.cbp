@@ -214,9 +214,6 @@
 		<Unit filename="/home/kimberlyc/CLionProjects/1ProyectoDatos2/Client.h">
 			<Option target="translator"/>
 		</Unit>
-		<Unit filename="/home/kimberlyc/CLionProjects/1ProyectoDatos2/EstructuraData.h">
-			<Option target="translator"/>
-		</Unit>
 		<Unit filename="/home/kimberlyc/CLionProjects/1ProyectoDatos2/Expresion.h">
 			<Option target="translator"/>
 		</Unit>

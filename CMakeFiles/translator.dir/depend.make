@@ -161,12 +161,11 @@ CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o: /home/kimberlyc/Qt5.7.0/5.
 CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o: Client.h
 CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o: Expresion.h
 CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o: List.h
-CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o: MetaData.h
 CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o: ui_ide_cfactorial.h
 
-CMakeFiles/translator.dir/main.cpp.o: MetaData.h
 CMakeFiles/translator.dir/main.cpp.o: forms/ide_cfactorial.h
 CMakeFiles/translator.dir/main.cpp.o: main.cpp
+CMakeFiles/translator.dir/main.cpp.o: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/QThread
 CMakeFiles/translator.dir/main.cpp.o: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qalgorithms.h
 CMakeFiles/translator.dir/main.cpp.o: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qarraydata.h
 CMakeFiles/translator.dir/main.cpp.o: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qatomic.h
@@ -231,6 +230,7 @@ CMakeFiles/translator.dir/main.cpp.o: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include
 CMakeFiles/translator.dir/main.cpp.o: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qsysinfo.h
 CMakeFiles/translator.dir/main.cpp.o: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qsystemdetection.h
 CMakeFiles/translator.dir/main.cpp.o: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qtextstream.h
+CMakeFiles/translator.dir/main.cpp.o: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qthread.h
 CMakeFiles/translator.dir/main.cpp.o: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qtypeinfo.h
 CMakeFiles/translator.dir/main.cpp.o: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qtypetraits.h
 CMakeFiles/translator.dir/main.cpp.o: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qurl.h

@@ -24,6 +24,7 @@ public:
     explicit IDE_CFactorial(QWidget *parent = 0);
     ~IDE_CFactorial();
 
+
 private slots:
     void on_RunButton_clicked();
 

@@ -162,12 +162,11 @@ CMakeFiles/translator.dir/forms/ide_cfactorial.cpp.o
  Client.h
  Expresion.h
  List.h
- MetaData.h
  ui_ide_cfactorial.h
 CMakeFiles/translator.dir/main.cpp.o
- /home/kimberlyc/CLionProjects/1ProyectoDatos2/MetaData.h
  /home/kimberlyc/CLionProjects/1ProyectoDatos2/forms/ide_cfactorial.h
  /home/kimberlyc/CLionProjects/1ProyectoDatos2/main.cpp
+ /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/QThread
  /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qalgorithms.h
  /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qarraydata.h
  /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qatomic.h
@@ -232,6 +231,7 @@ CMakeFiles/translator.dir/main.cpp.o
  /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qsysinfo.h
  /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qsystemdetection.h
  /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qtextstream.h
+ /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qthread.h
  /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qtypeinfo.h
  /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qtypetraits.h
  /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/qurl.h

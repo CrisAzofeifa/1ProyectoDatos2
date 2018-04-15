@@ -56,7 +56,7 @@ set(SOURCES
 		Expresion.h
 		ListNode.h List.h
 		ui_ide_cfactorial.h
-		MetaData.cpp MetaData.h EstructuraData.h)
+		MetaData.cpp MetaData.h)
 
 # User interface files
 set(FORMS
