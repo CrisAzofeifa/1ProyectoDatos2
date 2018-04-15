@@ -69,7 +69,9 @@ int Client::recibir(){
         puts("Datos recibidos con éxito\n\n");
     }
     puts("La respuesta:\n");
-    puts(server_reply);
+    string respuesta = server_reply;
+    cout << "La respuesta fue "<< respuesta;
+
 
 
 

@@ -14,6 +14,16 @@ int main(int argc, char* argv[]) {
     QApplication a(argc, argv);
     IDE_CFactorial w;
     w.show();
+    char* memo =(char*)malloc(sizeof(char)*1024);
+    int y=76;
+    *(int*)(memo+4)= y;
+    int *ptr= (int*)(memo+4);
+    cout << *ptr << endl;
+    cout << ptr<< endl;
+   // free(memo);
+
+
+
 
 
 

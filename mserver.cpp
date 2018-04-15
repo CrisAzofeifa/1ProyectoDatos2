@@ -7,11 +7,13 @@
 #include<arpa/inet.h> //inet_addr
 #include<unistd.h>    //Permite el write
 #include<pthread.h> //Biblioteca de Threads , asociada a lpthread
+#include <jsoncpp/json/json.h>
 
 /* Pasos para la ejecucion del servidor:
  * 1. Abrir una terminal
  * 2. Cambiar el directorio con: cd C-
- * 3. Escribir el comando g++ -pthread  mserver.cpp -o mserver
+ * 3. Escribir el comando g++ -pthread  mserver.cpp -o mserver -ljsoncpp
+
  * 4. Ingresar ./mserver
 */
 using namespace std;
@@ -19,11 +21,11 @@ void *manejador_conexion(void *);
 
 int socket_desc , client_sock , c;
 struct sockaddr_in server , client;
-int main(){
+char *memoria;
 
+int main(){
     Server* server= new Server;
     server->crear();
-
     return 0;
 }
 
@@ -46,16 +48,18 @@ int Server::crear() {
 
 
 
-    int *memoria;
+
     // Se reserva memoria y se asigana la direccion al puntero memoria
 
-    memoria = (int *)(malloc(sizeof(100)));
+    memoria = (char *)(malloc(sizeof(char)*1024));
 
+    List<EstructuraData>* ListaMemo = new List<EstructuraData>;
+    EstructuraData* estruct = new EstructuraData;
     //Para ver si se asigno correctamente la memoria
     if (memoria  == NULL) {
         puts("Error al intentar reservar memoria");
     }else{
-        puts("Reservados 100 bytes de memoria");
+        puts("Reservados 1024 bytes de memoria");
     }
 
 
@@ -86,7 +90,7 @@ int Server::crear() {
         //Creacion del hilo para mas de un cliente
         if( pthread_create( &thread_id , NULL ,  manejador_conexion, (void*) &client_sock) < 0)
         {
-            perror("No se puso crear el thread");
+            perror("No se pudo crear el thread");
             return 1;
         }
 
@@ -129,9 +133,39 @@ void *manejador_conexion(void *socket_desc)
         //Enviar mensaje de vuelta al cliente
 
         write(sock , client_resp, strlen(client_resp));
+        string mensaje= client_message;
 
-        cout << "El mensaje recibido es " << client_message<< endl;
 
+        Json::Reader reader;
+        Json::Value obj;
+        reader.parse(mensaje, obj); // reader can also read strings
+        cout << "nombre: " << obj["nombre"].asString() << endl;
+        cout << "tamaño: " << obj["tamanio"].asString() << endl;
+        cout << "tipo: " << obj["tipo"].asString() << endl;
+        cout << "valor: " <<obj["valor"].asString()  << endl;
+
+
+
+
+        if ( top< limite){
+            int nombre= (int*)(obj["valor"].asString()); //valor
+            *(int*)(memoria+base)= nombre; //suma tamanio
+            top+= (int*)(obj["tamanio"].asString()); //tamanio
+            int *ptr= (int*)(memoria+base);
+
+            estruct->setAtributos(obj["nombre"].asString(), ptr,obj["tipo"].asString(), *ptr, base,top );
+            base= top;
+            ListaMemo->Insert(estruct);
+        }
+        else{
+            cout<< "sin memoria disponible";
+        }
+
+        for (int i=0; i<ListaMemo->length(); i++){
+            cout<< "un nodo dice" <<MetaData->Get(i);
+        }
+
+        cout << "El mensaje recibido es " << mensaje<< endl;
         //limpiar el mensaje
        //memset(client_message, 0, 2000);
 
@@ -149,7 +183,7 @@ void *manejador_conexion(void *socket_desc)
 
 
 }
-void enviar(void *socket_desc);
+
 
 
 

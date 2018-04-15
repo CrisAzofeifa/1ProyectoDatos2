@@ -301,6 +301,7 @@ void IDE_CFactorial::generarJson(string tipo, string nombre, string valor) {
     Client* cliente = new Client;
     cliente->crear();
     cliente->enviar(json);
+    cliente->recibir();
 }
 /*Client* cliente = new Client;
 void *cliente_thread(void *arg) {
