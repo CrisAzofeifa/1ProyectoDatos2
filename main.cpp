@@ -5,6 +5,8 @@
 #include <iostream>
 #include <fstream>
 
+//hola amor <3
+
 using namespace std;
 
 int main(int argc, char* argv[]) {
@@ -28,10 +30,8 @@ int main(int argc, char* argv[]) {
         cout << " chapter: " << characters[i]["chapter"].asUInt();
         cout << endl;
     }
-
 */
 
     return a.exec();
 
 }
-
